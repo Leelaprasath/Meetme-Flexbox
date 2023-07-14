@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Header div {
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.Container1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.Container2 {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CContent {
+    width: 50%;
+}
+
+.CImage {
+    height: 700px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CR1 {
+    color: grey;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.CR2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.CR2 p {
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    color: grey;
+    font-weight: 600;
+}
+
+.Bio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#R1,
+#R2,
+#R3,
+#R4,
+#R5,
+#R6,
+#R7 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7px;
+}
+
+.RC1,
+.RC2 {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.RC1 p {
+    color: black;
+}
+
+.Download {
+    width: 40%;
+    padding: 15px 15px 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.Contact {
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 15px 15px 0px;
+    margin-top: 15px;
+}
+
+.DownloadR1,
+.ContactR1 {
+    justify-content: center;
+    align-content: center;
+    padding: 5px 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.DownloadR1 {
+    background-color: blue;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.ContactR1 {
+    background-color: red;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #D3D3D3;
+}
+
+.Container4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+}
+
+.Container4C1,
+.Container4C2,
+.Container4C3 {
+    margin-right: 18px;
+}
+
+.Container4C1,
+.Container4C2,
+.Container4C3,
+.Container4C4 {
+    width: 24%;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    text-align: center;
+}
+
+.WhatContainer {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Candara';
+    margin-top: 20px;
+}
+
+.Web {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.WebContent1 {
+    width: 100%;
+    text-align: center;
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: #808080;
+    line-height: 25px;
+    font-family: 'Candara';
+    font-size: 20px;
+}
+
+.WebContent2 {
+    display: flex;
+    justify-content: center;
+    color: #696969;
+    font-family: 'Candara';
+    font-weight: 600;
+}
+
+#top {
+    margin-bottom: 25px;
+}
+
+.WebContent2top {
+    display: flex;
+    color: #696969;
+    line-height: 25px;
+    font-family: 'Candara';
+    font-weight: 600;
+}
+
+.Container5 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.Container6 {
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.Container6R1,
+.Container6R2,
+.Container6R3,
+.Container6R4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Education,
+.Experience {
+    width: 48.5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    background-color: #D3D3D3;
+}
+
+.padding0 {
+    padding-left: 0px;
+}
+
+.Education {
+    margin-right: 18px;
+    color: #696969;
+    line-height: 45px;
+    font-family: 'Serief';
+    font-weight: 600;
+}
+
+.Experience {
+    margin-left: 18px;
+    color: #696969;
+    line-height: 45px;
+    font-family: 'Serief';
+    font-weight: 600;
+}
+
+.EducationHeader,
+.ExperienceHeader {
+    width: 50%;
+    font-weight: 600;
+    color: #696969;
+    font-size: 18px;
+    padding-bottom: 0px;
+    align-content: flex-start;
+}
+
+.ExperienceHeader {
+    padding-left: 16px;
+}
+
+.Container7 {
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Container8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 35px 0px;
+    justify-content: center;
+}
+
+.Works p {
+    font: 'Serief';
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.Container9 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Container9R1,
+.Container9R2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.ImageC1,
+.ImageC2,
+.ImageC3 {
+    width: 33.3333333333%;
+    display: flex;
+    padding: 7px;
+}
+
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #696969;
+}
+
+.Images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Footer {
+    padding: 15px;
+    display: flex;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Copyrights {
+    text-align: center;
+    color: white;
+    background-color: #696969;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
